@@ -1,5 +1,2 @@
-discord.py
-dnspython
-pyNaCl
-async-timeout
-tensorflow
+discord.py==1.7.3
+tensorflow_cpu==2.7.0
