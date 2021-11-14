@@ -6,6 +6,8 @@ We created a NLP based discord bot using the dataset we collected from [Kaggle](
 
 ![image](https://user-images.githubusercontent.com/78687109/141666424-fb768d22-e431-4346-b79c-1a46c6382ff5.png)
 
+When someone Texts something offensive, then Bot deleted the message and creates a poll to ban the user. If the number of votes reaches the threashold, then the user that texted it, gets banned.
+
 ## How to use
 [Click here to add Bot to your server.](https://discord.com/api/oauth2/authorize?client_id=908627254387568670&permissions=8&scope=bot)
 
@@ -13,11 +15,11 @@ Give Administrator access and then it's good to go.
 
 The Bot is made to run 24/7 on any discord server using replit and uptimerobot.
 
+### Note
+
 **If you find the bot offline, feel free to contact us at +91 9337070750**
 
 This bot can only run for the person who created the bot, so it **"cannot run on any-other local machine"**.
-
-When someone Texts something offensive, then Bot deleted the message and creates a poll to ban the user. If the number of votes reaches the threashold, then the user that texted it, gets banned.
 
 ## Technologies Used
 
