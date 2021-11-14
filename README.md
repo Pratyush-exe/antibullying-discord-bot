@@ -11,6 +11,8 @@ We created a NLP based discord bot using the dataset we collected from [Kaggle](
 ## How to use
 [Click here to add Bot to your server.](https://discord.com/api/oauth2/authorize?client_id=908627254387568670&permissions=8&scope=bot)
 
+The Bot is made to run 24/7 on any discord server using replit and uptimerobot.
+
 **If you find the bot offline, feel free to contact us at +91 9337070750**
 
 Give Administrator access and then it good to go.
