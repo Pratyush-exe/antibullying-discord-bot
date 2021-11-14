@@ -8,3 +8,5 @@ We created a NLP based discord bot, that takes all the messages texted from the 
 Give Administrator access and then it good to go.
 
 When someone Texts something offensive, then Bot deleleted the message and creates a poll to ban the user. If the number of votes reaches the threashold, then the user that texted it, gets banned.
+
+## The Problem
