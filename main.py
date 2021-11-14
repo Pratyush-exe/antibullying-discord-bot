@@ -1,5 +1,4 @@
 import discord
-from discord.ext.commands import has_permissions
 import pickle
 import random
 from discord.utils import get
@@ -12,7 +11,7 @@ titles = ['This is a warning!', 'Watch your language!', 'Be careful what you spe
 
 client = discord.Client()
 
-limitVote = 5
+limitVote = 3
 
 
 @client.event
@@ -46,17 +45,12 @@ async def on_raw_reaction_add(ctx):
             reaction = get(message.reactions, emoji=ctx.emoji.name)
             COUNT = reaction.count
             embed = message.embeds[0].to_dict()
-            if COUNT == 2:
-                user = ""
+            if COUNT >= limitVote:
                 descp = embed['description']
                 x = re.search(r"\<([0-9@]+)\>", descp)
-                await message.channel.send("<" + x.group(1) + ">")
+                embed = discord.Embed(title="Ban",
+                                      description="Admin (@everyone) Ban <" + x.group(1) + ">",
+                                      color=discord.Color.dark_red())
+                await message.channel.send(embed=embed)
 
-
-@has_permissions(kick_members=True)
-async def kick(self, ctx, member: discord.Member, *, reason=None):
-    await member.kick(reason=reason)
-    await ctx.send(f'User {member} has been kick')
-
-
-client.run('enter bot token')
+client.run('OTA4NjI3MjU0Mzg3NTY4Njcw.YY4fEg.9wEK0V0NgAgFUaKH66TSl1So2wo')
