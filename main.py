@@ -53,4 +53,4 @@ async def on_raw_reaction_add(ctx):
                                       color=discord.Color.dark_red())
                 await message.channel.send(embed=embed)
 
-client.run('OTA4NjI3MjU0Mzg3NTY4Njcw.YY4fEg.9wEK0V0NgAgFUaKH66TSl1So2wo')
+client.run('enter token id') # Not ented due to privacy issues
