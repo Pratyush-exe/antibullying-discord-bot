@@ -11,11 +11,11 @@ We created a NLP based discord bot using the dataset we collected from [Kaggle](
 ## How to use
 [Click here to add Bot to your server.](https://discord.com/api/oauth2/authorize?client_id=908627254387568670&permissions=8&scope=bot)
 
+Give Administrator access and then it's good to go.
+
 The Bot is made to run 24/7 on any discord server using replit and uptimerobot.
 
 **If you find the bot offline, feel free to contact us at +91 9337070750**
-
-Give Administrator access and then it good to go.
 
 This bot can only run for the person who created the bot, so it **"cannot run on any-other local machine"**.
 
@@ -23,4 +23,4 @@ When someone Texts something offensive, then Bot deleted the message and creates
 
 ## Technologies Used
 
-We used discord.py, scikit-learn, and other minor libraries for making the whole project, from modeeling the NLP model to deploying it to a discord Bot.
+We used discord.py, scikit-learn, and other minor libraries for making the whole project, from modeling the NLP model to deploying it to a discord Bot.
