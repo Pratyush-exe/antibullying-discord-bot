@@ -15,12 +15,6 @@ Give Administrator access and then it's good to go.
 
 The Bot is made to run 24/7 on any discord server using replit and uptimerobot.
 
-### Note
-
-**If you find the bot offline, feel free to contact us at +91 9337070750**
-
-This bot can only run for the person who created the bot, so it **"cannot run on any-other local machine"**.
-
 ## Technologies Used
 
 We used discord.py, scikit-learn, and other minor libraries for making the whole project, from modeling the NLP model to deploying it to a discord Bot.
